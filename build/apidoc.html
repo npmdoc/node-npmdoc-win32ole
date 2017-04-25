@@ -132,7 +132,23 @@
         return old.apply(this, arguments);
     };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+return this.all.apply(this, params);
+};
+
+// Save the stack trace over EIO callbacks.
+win32ole.verbose = function(){
+if(!isVerbose){
+  var trace = require(&#x27;./trace&#x27;);
+  trace.<span class="apidocCodeKeywordSpan">extendTrace</span>(V8Variant.prototype, &#x27;isA&#x27;);
+  trace.extendTrace(V8Variant.prototype, &#x27;vtName&#x27;);
+  trace.extendTrace(V8Variant.prototype, &#x27;toBoolean&#x27;); // *** p.
+  trace.extendTrace(V8Variant.prototype, &#x27;toInt32&#x27;); // *** p.
+  trace.extendTrace(V8Variant.prototype, &#x27;toInt64&#x27;); // *** p.
+  trace.extendTrace(V8Variant.prototype, &#x27;toNumber&#x27;); // *** p.
+  trace.extendTrace(V8Variant.prototype, &#x27;toDate&#x27;); // *** p.
+  trace.extendTrace(V8Variant.prototype, &#x27;toUtf8&#x27;); // *** p.
+...</pre></li>
     </ul>
 
 
