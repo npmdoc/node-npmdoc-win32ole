@@ -1,6 +1,6 @@
 # npmdoc-win32ole
 
-#### api documentation for  [win32ole (v0.1.3)](https://github.com/idobatter/node-win32ole)  [![npm package](https://img.shields.io/npm/v/npmdoc-win32ole.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-win32ole) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-win32ole.svg)](https://travis-ci.org/npmdoc/node-npmdoc-win32ole)
+#### basic api documentation for  [win32ole (v0.1.3)](https://github.com/idobatter/node-win32ole)  [![npm package](https://img.shields.io/npm/v/npmdoc-win32ole.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-win32ole) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-win32ole.svg)](https://travis-ci.org/npmdoc/node-npmdoc-win32ole)
 
 #### Asynchronous, non-blocking win32ole bindings
 
